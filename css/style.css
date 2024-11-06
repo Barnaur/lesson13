@@ -1,0 +1,51 @@
+@keyframes Orbita {
+  from {
+    -webkit-transform: rotate(0deg) translateX(180px) rotate(0deg);
+  }
+  to {
+    -webkit-transform: rotate(360deg) translateX(180px) rotate(-360deg);
+  }
+  0% {
+    fill: rgb(137, 38, 38);
+    stroke: rgb(167, 219, 160);
+  }
+  25% {
+    fill: rgb(179, 179, 44);
+    stroke: rgb(161, 45, 134);
+  }
+  50% {
+    fill: rgb(116, 116, 224);
+    stroke: rgb(99, 80, 181);
+  }
+  75% {
+    fill: rgb(25, 53, 25);
+    stroke: rgb(90, 160, 81);
+  }
+  100% {
+    fill: rgb(137, 38, 38);
+    stroke: rgb(167, 219, 160);
+  }
+}
+.first {
+  fill: rgb(91, 125, 44);
+  stroke-width: 5;
+  stroke: rgb(177, 99, 99);
+}
+
+.second {
+  fill: rgb(42, 132, 143);
+  stroke-width: 5;
+  stroke: rgb(29, 133, 15);
+}
+
+.thirsth {
+  stroke-width: 5;
+  position: absolute;
+  animation: Orbita 10s linear infinite;
+}
+
+.fourth {
+  fill: rgba(185, 48, 226, 0.77);
+  stroke-width: 5;
+  stroke: rgba(219, 215, 96, 0.734);
+}/*# sourceMappingURL=style.css.map */
